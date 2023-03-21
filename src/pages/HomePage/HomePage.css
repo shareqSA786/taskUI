@@ -1,0 +1,131 @@
+.container{
+    position: relative;
+    width: 100%;
+margin-bottom: 25rem;
+}
+
+.shadow{
+    position: absolute;
+    height: 890px;
+    width: 890px;
+    background: #222156;
+opacity: 0.05;
+top: 55%;
+right: -190px;
+border-radius: 50%;
+}
+
+.image-container{
+    position: absolute;
+    right: -80px;
+    top:65%;    
+    height: 600px;
+    width: 600px;
+    background: url(../../assests/first.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+}
+
+
+.details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.title{
+    background: linear-gradient(90deg, #222156 0%, #E66354 104.56%);
+    font-size: 10rem;
+    line-height: normal;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.sub-title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 50.9288px;
+line-height: 76px;
+color: #272B67;
+margin-bottom: 2rem;
+}
+.list-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.list-item-txt{
+    margin-left: 1.5rem;
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25.1353px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.list-item-icon{
+    height: 28px;
+    width: 28px;
+    background: #E66354;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.sub-container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 10;
+    background-image: url(../../assests/Image2.jpg);
+}
+
+.text-container{
+    background: #FFFFFF;
+box-shadow: 0px 8.02041px 48.1224px rgba(0, 0, 0, 0.15);
+max-width: 710px;
+padding: 1.5rem;
+}
+.text{
+    /* font-family: 'Poppins'; */
+font-style: normal;
+font-weight: 700;
+font-size: 40.102px;
+line-height: 60px;
+
+color: #000000;
+margin-bottom: 1.5rem;
+}
+
+.button{
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #042250;
+border-radius: 24.0612px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24.0612px;
+line-height: 36px;
+color: #FFFFFF;
+}
